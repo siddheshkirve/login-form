@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+    <img src="kennectlogo.png" class="logo" alt=""> 
+            <form action="" onsubmit="return validationform()">
+                <div class="username-field">
+                    <label for="email">Enter Username</label>
+                    <input type="text" id="username" placeholder="example@mail.com" autocomplete="off">
+                    <!-- <span>
+                        <i class="fa fa-user" aria-hidden="true" ></i>
+                    </span> -->
+                </div>
+                <div class="password-field">
+                    <label for="password">Enter Password</label>
+                    <input type="password" name="password" id="password">
+                    <!-- <span id="unlockthe">
+                        <i class="fa fa-unlock-alt" aria-hidden="true" ></i>
+                    </span> -->
+                    <span>
+                        <i class="far fa-eye" aria-hidden="true" id="eye"></i>
+                    </span>
+                    
+                </div>
+                <div class="login-form-submit">
+                    <input type="submit" value="LOGIN" id="submit" onClick="login()">
+                </div>
+            
+                <div class="btn_two">
+                    <button class="btn-sso">SSO</button>
+                </div>
+                <p class="forgot"><a href="forgetpass.html">FORGOT PASSWORD?</a></p>
+                <span>
+                    <p class="opt">Have an opt?</p>
+                    <p class="help"><a href="https://kennect.io" target="_blank">help</a> </p>
+                </span>
+                
+            </form> 
+    </div>
+
+</body>
+</html>

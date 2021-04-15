@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-size: cover;
+    
+}
+.container{
+    width: 320px;
+    height: 450px;
+    background: rgba(199, 198, 191, 0.877);
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 10px 20px; 
+    border-radius: 10px;
+    box-shadow: 3px  3px 6px #8b95a8;
+    
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    left:39%;
+}
+.username-field {
+    margin: 10px;
+}
+.username-field label{
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.username-field input{
+    width:100%;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1.5px solid black;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    margin-bottom: 20px;
+}
+.username-field input:hover{
+    border-bottom: 1.5px solid rgb(34, 81, 141);
+}
+.username-field span{
+    position: absolute;
+    right: 274px;
+    top: 26%;
+    cursor: pointer;
+    transform: translate(0,-50%);
+}
+.password-field {
+    margin: 10px;
+}
+.password-field label{
+    font-weight: bold;
+    font-size: 14px;
+}
+.password-field input{
+    width:100%;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1.5px solid black;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    margin-bottom: 20px;
+}
+.password-field i{
+    position: absolute;
+    top: 43%;
+}
+.password-field input:hover{
+    border-bottom: 1.5px solid rgb(23, 62, 114);
+}
+#unlockthe{
+    position: absolute;
+    right: 287px;
+    top: 40%;
+    cursor: pointer;
+    transform: translate(0,-50%);
+}
+.password-field span{
+    position: absolute;
+    right: 45px;
+    top: 41%;
+    cursor: pointer;
+    transform: translate(0,-50%);
+}
+.login-form-submit input{
+    position: relative;
+    left: 31%;
+    padding: 13px 40px 13px 40px;
+    border: none !important;
+    border-radius: 50px;
+    background: rgb(45, 92, 153);
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.btn-sso{
+    position: relative;
+    left: 25%;
+    padding: 13px 50px 13px 50px;
+    margin: 15px;
+    border: none;
+    border-radius: 50px;
+    background: rgb(22, 27, 32);
+    font-weight: bold;
+    color: white;
+}
+.forgot{
+    position: absolute;
+    left: 21%;
+    font-weight: 500;
+    margin: 7px;
+}
+.forgot a:hover{
+    color: rgb(45, 92, 153);
+}
+.forgot a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold
+}
+.opt {
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    font-weight: 500;
+    margin: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.help {
+    position: absolute;
+    top: 85%;
+    left: 71%;
+    font-weight: 500;
+    margin: 15px;
+    ;
+    
+    
+    
+}
+.help a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#submit:hover{
+    background: rgb(22, 68, 128);
+} 
+#submit:active{
+    border: none;
+}
